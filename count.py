@@ -13,7 +13,7 @@ def count_occ(s):
             count_map[char] = 1
     
 
-    if len(set(count_map.values())) == 1:
+    if len(set(count_map.values())) == 1: #set() will get the unique values from count_map and checks if len(set) == 1
         return True
     else:
         return False
