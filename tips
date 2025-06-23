@@ -1,3 +1,5 @@
 If you do for i in arr: then i is element value.
 
 If you do for i in range(len(arr)): then i is index.
+
+substr = s[i:j+1] // gettign substring form left to right
